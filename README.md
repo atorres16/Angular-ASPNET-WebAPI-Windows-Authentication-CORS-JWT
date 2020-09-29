@@ -25,7 +25,7 @@ For this we need:
 1. Create the WebAPI with windows authentication enabled
 2. [Enable CORS](https://softdevnotesntips.blogspot.com/2020/09/how-to-enable-cors-between-angular-app.html)
 3. [Configure it, so it returns JSON instead of XML](https://softdevnotesntips.blogspot.com/2020/09/connect-angular-with-webapi.html)
-4. Enable ***Anonymous Authentication***
+4. Enable ***Anonymous Authentication***    
    ![](images/2020-09-29-14-57-24.png)
 5. Install JWT support
    ```
