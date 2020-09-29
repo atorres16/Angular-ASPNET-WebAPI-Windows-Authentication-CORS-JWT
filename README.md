@@ -1,4 +1,4 @@
-# Angular + ASPNET WebAPI + Windows Authentication + CORS + JWT
+# How to: Angular + ASPNET WebAPI + Windows Authentication + CORS + JWT
 ## Scenario
 We need an intranet web app that allows the user to login automatically with windows authentication, but also it is required to be able to logout from the app and login manually with a different username and password. Client and Server are in different locations (domains)
 For this we need:
