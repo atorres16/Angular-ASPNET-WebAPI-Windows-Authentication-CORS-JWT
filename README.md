@@ -410,6 +410,7 @@ For this we need:
 ### What happened?
 The first time the application runned, it went to the Tokens controller where using Windows authentication a token was generated and returned, then, that token was used to make the http call to the Items Controller where JWT authorization was performed.   
 ## Resources
+* All content extracted from this answer in SO: https://stackoverflow.com/questions/40281050/jwt-authentication-for-asp-net-web-api
 * https://stackoverflow.com/a/36506031/3596441
 * https://softdevnotesntips.blogspot.com/2020/09/connect-angular-with-webapi.html
 * https://github.com/cuongle/WebApi.Jwt/ (Warning, original code has a bug, see [this pull request](https://github.com/cuongle/WebApi.Jwt/pull/4))
