@@ -26,7 +26,7 @@ For this we need:
 2. [Enable CORS](https://softdevnotesntips.blogspot.com/2020/09/how-to-enable-cors-between-angular-app.html)
 3. [Configure it, so it returns JSON instead of XML](https://softdevnotesntips.blogspot.com/2020/09/connect-angular-with-webapi.html)
 4. Enable ***Anonymous Authentication***    
-   ![](images/2020-09-29-14-57-24.png)
+   ![](https://github.com/atorres16/Angular-ASPNET-WebAPI-Windows-Authentication-CORS-JWT/raw/master/images/2020-09-29-14-57-24.png)
 5. Install JWT support
    ```
    install-package System.IdentityModel.Tokens.Jwt
@@ -405,7 +405,7 @@ For this we need:
     }   
    ```   
 5. Run both apps, press F12 on the angular app to open the developer tools, you should see something like this:
-   ![](images/2020-09-29-16-09-12.png)
+   ![](https://github.com/atorres16/Angular-ASPNET-WebAPI-Windows-Authentication-CORS-JWT/raw/master/images/2020-09-29-16-09-12.png)
 
 ### What happened?
 The first time the application runned, it went to the Tokens controller where using Windows authentication a token was generated and returned, then, that token was used to make the http call to the Items Controller where JWT authorization was performed.   
